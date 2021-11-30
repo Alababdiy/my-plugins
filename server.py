@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# Abdallah Hassan  Software Produce ok
+# Abdallah Hassan  Software Produce
 
 import os
 from flask import Flask, request, render_template, jsonify
