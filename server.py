@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# Abdallah Hassan  Software Produce
+# Abdallah Hassan  Software Produce ok
 
 import os
 from flask import Flask, request, render_template, jsonify
@@ -15,7 +15,7 @@ app.secret = os.environ.get('534o5o34o5jpo234oomdfsog')
 
 
 
-  
+#ok thanks
 @app.route('/send_phone')
 def to_contact():
   phone_no = request.args['last_input'].replace(' ','').replace('-','')
