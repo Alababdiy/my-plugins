@@ -15,7 +15,7 @@ app.secret = os.environ.get('534o5o34o5jpo234oomdfsog')
 
 
 
-#ok thanks
+#ok thanks kkkk
 @app.route('/send_phone')
 def to_contact():
   phone_no = request.args['last_input'].replace(' ','').replace('-','')
