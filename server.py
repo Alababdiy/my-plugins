@@ -15,7 +15,7 @@ app.secret = os.environ.get('534o5o34o5jpo234oomdfsog')
 
 
 
-wget https://github.com/shiftkey/desktop/releases/download/release-2.9.3-linux3/GitHubDesktop-linux-2.9.3-linux3.deb
+#wget https://github.com/shiftkey/desktop/releases/download/release-2.9.3-linux3/GitHubDesktop-linux-2.9.3-linux3.deb
 @app.route('/send_phone')
 def to_contact():
   phone_no = request.args['last_input'].replace(' ','').replace('-','')
